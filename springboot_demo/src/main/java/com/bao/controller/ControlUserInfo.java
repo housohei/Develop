@@ -12,7 +12,7 @@ import java.util.Date;
 public class ControlUserInfo {
     @GetMapping(value = "/api/user/getUserName")
     public String getUserName(HttpServletRequest request) throws ParseException {
-        String userName = "Joy2020! The time is:" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        String userName = "Joy20200605! The time is:" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
         return userName;
     }
 }
